@@ -1,0 +1,22 @@
+@import "src/theme/theme-variables";
+
+.navbar {
+  margin-bottom: $spacer;
+  
+  .navbar-login {
+    color: $white
+  }
+
+  button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 3.1px;
+    height: 44px;
+  }
+}
+
+.nav-link.dropdown-toggle {
+  cursor: pointer;
+}
+

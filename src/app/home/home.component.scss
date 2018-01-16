@@ -1,0 +1,32 @@
+@import "src/theme/theme-variables";
+
+.sn-home {
+  background-image: url("/assets/home-top.png");
+  background-position: center; 
+
+  .logo {
+    margin-top: 71px;
+    margin-bottom: 71px;
+  }
+
+  .sn-home__top-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 0;
+    font-size: 30px;
+    line-height: 1.2;
+    color: $white;
+  }
+  
+  .sn-home__subtext {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+}
+
+q {
+  font-style: italic;
+  font-size: 1.2rem;
+  quotes: "« " " »";
+}

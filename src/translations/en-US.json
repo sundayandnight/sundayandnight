@@ -1,0 +1,25 @@
+{
+  "APP_NAME": "ngX-Rocket",
+  "About": "About",
+  "Hello world !": "Hello world !",
+  "Home": "Home",
+  "Logged in as": "Logged in as",
+  "Login": "Login",
+  "Logout": "Logout",
+  "Password": "Password",
+  "Password is required": "Password is required",
+  "Username": "Username",
+  "Username is required": "Username is required",
+  "Username or password incorrect.": "Username or password incorrect.",
+  "Remember me": "Remember me",
+  "Version": "Version",
+  "Header": {
+    "curious": "Curious?",
+    "login": "Log in"
+  },
+  "Main": {
+    "topText": "We believe organizations rarely die from moving too fast.",
+    "subtext1": "In the new world order, it’s no longer the big fish which eats the small fish, it’s become the fast fish which eats the slow fish. Slow to adapt, slow to act and slow to market means death.",
+    "subtext2": "We partner with committed, action-oriented leaders, teams and organizations to deliver solutions to the most compelling business challenges – impossibly fast."
+  }
+}

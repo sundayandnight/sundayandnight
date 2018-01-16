@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "vim.disableAnnoyingNeovimMessage": true,
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/*.js": true,
+      "**/*.map": true,
+      "plugins/**/*": true,
+      "**/*.ts.html": true,
+      "**/main.js": true,
+      "**/*.java": true,
+      "**/*.m": true,
+      "test-coverage/**": true
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "editor.minimap.enabled": false,
+  "git.ignoreLimitWarning": true
+}
