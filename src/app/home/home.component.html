@@ -85,9 +85,29 @@
     <div class="sn-home__curious-form row justify-content-around">
       <div *ngFor="let key of ['sponsor', 'solutionist', 'partner']" class="col-4">
         <div class="form-group mx-4">
-          <label for="{{ key }}" translate>{{ 'Home.curious.' + key + '.title' }}</label>
+          <!-- <label for="{{ key }}" translate>{{ 'Home.curious.' + key + '.title' }}</label>
           <input type="email" class="form-control text-center" id="{{key + 'InputEmail" placeholder="{{ 'Home.curious.email' | translate }}">
-          <button type="button" class="btn btn-primary btn-block text-uppercase" translate>{{ 'Home.curious.' + key + '.action' }}</button>
+          <button type="submit" class="btn btn-primary btn-block text-uppercase" translate>{{ 'Home.curious.' + key + '.action' }}</button> -->
+
+          <!-- Begin MailChimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+              We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div>
+            <form action="{{ 'https://global.us17.list-manage.com/subscribe/post?u=6087c66855bfaa08f21413b7f&amp;id=' + mailChimpKeys[key] }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <label for="{{ key }}" translate>{{ 'Home.curious.' + key + '.title' }}</label>
+                <input type="email" value="" name="EMAIL" class="form-control text-center email" id="mce-EMAIL" placeholder="email address" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{ 'b_6087c66855bfaa08f21413b7f_' + mailChimpKeys[key] }}" tabindex="-1" value=""></div>
+                <button type="submit" class="btn btn-primary btn-block text-uppercase" translate>{{ 'Home.curious.' + key + '.action' }}</button>
+              </div>
+            </form>
+          </div>
+
+          <!--End mc_embed_signup-->
         </div>
       </div>
     </div>

@@ -12,6 +12,12 @@ export class HomeComponent implements OnInit {
   isLoading: boolean;
   carouselStrings = ['growth', 'technology', 'organization', 'customer', 'product', 'brand'];
 
+  mailChimpKeys = {
+    sponsor: 'b94c0dd78d',
+    solutionist: '4032850640',
+    partner: '5df8a92947'
+  };
+
   constructor() { }
 
   ngOnInit() {
