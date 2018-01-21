@@ -2,7 +2,6 @@
   "APP_NAME": "ngX-Rocket",
   "About": "About",
   "Hello world !": "Hello world !",
-  "Home": "Home",
   "Logged in as": "Logged in as",
   "Login": "Login",
   "Logout": "Logout",
@@ -17,9 +16,61 @@
     "curious": "Curious?",
     "login": "Log in"
   },
-  "Main": {
+  "Home": {
+    "pageTitle": "Home",
     "topText": "We believe organizations rarely die from moving too fast.",
     "subtext1": "In the new world order, it’s no longer the big fish which eats the small fish, it’s become the fast fish which eats the slow fish. Slow to adapt, slow to act and slow to market means death.",
-    "subtext2": "We partner with committed, action-oriented leaders, teams and organizations to deliver solutions to the most compelling business challenges – impossibly fast."
+    "subtext2": "We partner with committed, action-oriented leaders, teams and organizations to deliver solutions to the most compelling business challenges – impossibly fast.",
+    "carousel": {
+      "subtext": "We are a global secret society of Solutionists specializing in Hyper-Innovation Swarms™. Bespoke teams of cognitively diverse co-creators gather on any given Sunday to swarm the toughest challenges that keep you up at night.",
+      "growth": "GROWTH",
+      "technology": "TECHNOLOGY",
+      "organization": "ORGANIZATION",
+      "customer": "CUSTOMER",
+      "product": "PRODUCT/SERVICE",
+      "brand": "BRAND"
+    },
+    "panel3": {
+      "title": "We are your secret weapon",
+      "subtext": "Our unique, yet powerfully simple approach is designed to outsmart, outsolve and outwork your competition while they sleep. Literally.",
+      "subtitles": {
+        "whystorming": "WHYSTORMING™",
+        "truthstorming": "TRUTHSTORMING™",
+        "swarm": "SWARM SPARK™",
+        "hyper": "HYPER-INNOVATION SWARM™"
+      }
+    },
+    "quotes": {
+      "title": "Questions we're helping answer right now.",
+      "list": {
+        "0": "How might we create unique empowering lending experiences for our customers at key life stages?",
+        "1": "How can we create a disruptive new media and entertainment company that delivers immersive content tailored to Gen Z?",
+        "2": "How might we uniquely position our startup to capture significant investments to fund the creation of innovative technology for the cognitively impaired?",
+        "3": "How might we best create a for-profit business model that addresses the Future of Work to prevent ‘talent brain-drain’ in organizations?"
+      }
+    },
+    "curious": {
+      "title": "Curious?",
+      "email": "Enter your email",
+      "sponsor": {
+        "title": "Sponsor",
+        "action": "I need solutions"
+      },
+      "solutionist": {
+        "title": "Solutionist",
+        "action": "I want to solution"
+      },
+      "partner": {
+        "title": "Strategic Partner",
+        "action": "I want to collaborate"
+      }
+    },
+    "knock": {
+      "title": "Selected to be in an upcoming Swarm?",
+      "action": "Knock Knock"
+    },
+    "looking": {
+      "title": "Looking for monday morning?"
+    }
   }
 }

@@ -6,5 +6,37 @@
 body {
   background-color: $black;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
   color: $white;
+}
+  
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 1.2;
+  color: $white;
+}
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: $white;
+}
+ 
+button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3.1px;
+  height: 44px;
+}
+
+button.btn-outline-primary {
+  color: $white
+}
+
+.carousel {
+  outline: none;
 }

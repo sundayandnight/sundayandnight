@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
@@ -14,13 +15,12 @@ import { QuoteService } from './quote.service';
     TranslateModule,
     CoreModule,
     SharedModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    NgbModule
   ],
   declarations: [
     HomeComponent
   ],
-  providers: [
-    QuoteService
-  ]
+  providers: []
 })
 export class HomeModule { }
