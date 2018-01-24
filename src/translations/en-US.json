@@ -55,15 +55,21 @@
       "email": "Enter your email",
       "sponsor": {
         "title": "Sponsor",
-        "action": "I need solutions"
+        "action": "I need solutions",
+        "popoverTitle": "What is a Sponsor?",
+        "popoverText": "aka Client, Partner or Co-conspirator. If you have burning questions, we have burning answers. Let’s start with a 16-minute chat."
       },
       "solutionist": {
         "title": "Solutionist",
-        "action": "I want to solution"
+        "action": "I want to solution",
+        "popoverTitle": "What is a Solutionist?",
+        "popoverText": "If you are talented, passionate, ego-less, discreet and looking to flex your unique Creative superpower in one of our Hyper-Innovation Swarms™, we want to hear from you. Apply here to become part our Secret Society."
       },
       "partner": {
         "title": "Strategic Partner",
-        "action": "I want to collaborate"
+        "action": "I want to collaborate",
+        "popoverTitle": "What is a Strategic Partner?",
+        "popoverText": "We are always looking for great partners (as well as crew members and production assistants) to help bring the next Sunday+Night production to life. Let’s create an unforgettable experience together."
       }
     },
     "knock": {

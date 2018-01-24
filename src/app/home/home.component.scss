@@ -97,6 +97,17 @@
         font-family: 'Playfair Display', serif;
         font-size: 30px;
         margin-bottom: 30px;
+
+      }
+      
+      i {
+        font-size: 15px;
+        font-style: italic;
+        vertical-align: middle;
+      }
+
+      h3 {
+        color: $black
       }
 
       input {
