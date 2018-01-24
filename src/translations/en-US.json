@@ -19,34 +19,35 @@
   "Home": {
     "pageTitle": "Home",
     "topText": "We believe organizations rarely die from moving too fast.",
-    "subtext1": "In the new world order, it’s no longer the big fish which eats the small fish, it’s become the fast fish which eats the slow fish. Slow to adapt, slow to act and slow to market means death.",
-    "subtext2": "We partner with committed, action-oriented leaders, teams and organizations to deliver solutions to the most compelling business challenges – impossibly fast.",
+    "subtext1": "In the new world order, it’s no longer the big fish that eats the small fish; it’s the fast fish that eats the slow fish. The harsh new reality: Slow to adapt, slow to act and slow to market, means death.",
+    "subtext2": "We are Sunday+Night. We partner with committed, action-oriented leaders, teams and organizations to deliver solutions to the most compelling business challenges – impossibly fast.",
     "carousel": {
-      "subtext": "We are a global secret society of Solutionists specializing in Hyper-Innovation Swarms™. Bespoke teams of cognitively diverse co-creators gather on any given Sunday to swarm the toughest challenges that keep you up at night.",
+      "subtext": "We are a global secret society of Solutionists specializing in Hyper-Innovation Swarms™. Bespoke teams of cognitively diverse co-creators gather on any given Sunday to swarm the toughest challenges to put them to bed.",
       "growth": "GROWTH",
       "technology": "TECHNOLOGY",
       "organization": "ORGANIZATION",
       "customer": "CUSTOMER",
-      "product": "PRODUCT/SERVICE",
+      "product": "PRODUCT",
+      "service": "SERVICE",
       "brand": "BRAND"
     },
     "panel3": {
-      "title": "We are your secret weapon",
-      "subtext": "Our unique, yet powerfully simple approach is designed to outsmart, outsolve and outwork your competition while they sleep. Literally.",
+      "title": "We are your Secret Weapon.",
+      "subtext": "Our unique, yet powerfully simple tools and methods are designed to quickly outsmart, outsolve and outwork your competition while they sleep. Literally.",
       "subtitles": {
-        "whystorming": "WHYSTORMING™",
+        "whystorming": "WHY5TORMING™",
         "truthstorming": "TRUTHSTORMING™",
         "swarm": "SWARM SPARK™",
         "hyper": "HYPER-INNOVATION SWARM™"
       }
     },
     "quotes": {
-      "title": "Questions we're helping answer right now.",
+      "title": "PROBLEMS WE’RE HELPING SOLUTION RIGHT NOW:",
       "list": {
-        "0": "How might we create unique empowering lending experiences for our customers at key life stages?",
-        "1": "How can we create a disruptive new media and entertainment company that delivers immersive content tailored to Gen Z?",
-        "2": "How might we uniquely position our startup to capture significant investments to fund the creation of innovative technology for the cognitively impaired?",
-        "3": "How might we best create a for-profit business model that addresses the Future of Work to prevent ‘talent brain-drain’ in organizations?"
+        "0": "How can we make lending a great experience for our customers and seamlessly sync up to key life stages?",
+        "1": "How do we create a tech-forward, innovation-first media company that represents the reinvention of the traditional record label?",
+        "2": "We’re a tech startup with an innovative product for the cognitively impaired. How do we uniquely position ourselves to secure maximum funding?",
+        "3": "How do we create a for profit business model to address the Future of Work and prevent talent ‘brain-drain’ in organizations?"
       }
     },
     "curious": {
@@ -70,7 +71,7 @@
       "action": "Knock Knock"
     },
     "looking": {
-      "title": "Looking for monday morning?"
+      "title": "Looking for Monday Morning?"
     }
   }
 }
