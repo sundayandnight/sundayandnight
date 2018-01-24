@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { finalize } from 'rxjs/operators';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +19,9 @@ export class HomeComponent implements OnInit {
     partner: '5df8a92947'
   };
 
-  constructor() { }
+  constructor(config: NgbCarouselConfig) {
+    config.interval = 1000;
+  }
 
   ngOnInit() {
     this.isLoading = true;
