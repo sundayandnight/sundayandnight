@@ -19,6 +19,11 @@
   </div>
   <div class="row">
     <div text-center class="sn-home__carousel col" data-ride="carousel" >
+      <div class="row justify-content-center text-center">
+        <div class="col-4">
+          <h4 translate>Home.carousel.title</h4>
+        </div>
+      </div>
       <ngb-carousel data-ride="carousel">
         <ng-template ngbSlide *ngFor="let carouselString of carouselStrings">
           <h3 translate >{{ 'Home.carousel.' + carouselString }}</h3>
@@ -45,16 +50,44 @@
     </div>
     <div class="row text-center sn-home__secret-subtext">
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.whystorming</h4>
+        <h4 translate>Home.panel3.subtitles.whystorming<br /><i
+            class="fa fa-info-circle"
+            placement="bottom"
+            triggers="mouseenter:mouseleave"
+            ngbPopover='{{ "Home.panel3.subtitles.whyPop" | translate }}'
+            popoverTitle='{{ "Home.panel3.subtitles.whystorming" | translate }}'
+          ></i>
+        </h4>
       </div>
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.truthstorming</h4>
+        <h4 translate>Home.panel3.subtitles.truthstorming<br /><i
+            class="fa fa-info-circle"
+            placement="bottom"
+            triggers="mouseenter:mouseleave"
+            ngbPopover='{{ "Home.panel3.subtitles.truthPop" | translate }}'
+            popoverTitle='{{ "Home.panel3.subtitles.truthstorming" | translate }}'
+          ></i>
+        </h4>
       </div>
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.swarm</h4>
+        <h4 translate>Home.panel3.subtitles.swarm<br /><i
+            class="fa fa-info-circle"
+            placement="bottom"
+            triggers="mouseenter:mouseleave"
+            ngbPopover='{{ "Home.panel3.subtitles.swarmPop" | translate }}'
+            popoverTitle='{{ "Home.panel3.subtitles.swarm" | translate }}'
+          ></i>
+        </h4>
       </div>
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.hyper</h4>
+        <h4 translate>Home.panel3.subtitles.hyper<br /><i
+            class="fa fa-info-circle"
+            placement="bottom"
+            triggers="mouseenter:mouseleave"
+            ngbPopover='{{ "Home.panel3.subtitles.hyperPop" | translate }}'
+            popoverTitle='{{ "Home.panel3.subtitles.hyper" | translate }}'
+          ></i>
+        </h4>
       </div>
     </div>
   </div>
