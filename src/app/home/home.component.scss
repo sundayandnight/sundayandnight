@@ -1,4 +1,5 @@
 @import "src/theme/theme-variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
 
 .sn-home.container-fluid {
   max-width: 1440px;
@@ -59,6 +60,10 @@
     &-subtext {
       margin-top: 70px;
       padding-bottom: 190px;
+
+      h4 {
+        margin-top: 30px;
+      }
       
       i {
         font-size: 15px;
@@ -84,6 +89,15 @@
     .carousel-indicators {
       top: 260px;
       margin-bottom: 240px;
+      @include media-breakpoint-only(md) {
+        top: 300px;
+      }
+      @include media-breakpoint-only(sm) {
+        top: 300px;
+      }
+      @include media-breakpoint-only(xs) {
+        top: 350px;
+      }
     }
 
     &-quote {
@@ -123,6 +137,10 @@
     }
 
     &-form {
+      .form-group {
+        margin-top: 40px;
+      }
+
       label {
         font-family: 'Playfair Display', serif;
         font-size: 30px;
@@ -187,6 +205,17 @@
     background-size: auto 100%;
     background-repeat: no-repeat;
     padding-top: 55px;
+    
+    @include media-breakpoint-only(xs) {
+      border: 20px solid $yellow;
+      background-position: top;
+      background-size: 68px;
+      height: 234px;
+
+      h3 {
+        padding-top: 100px;
+      }
+    }
 
     h3 {
       font-size: 16px;
