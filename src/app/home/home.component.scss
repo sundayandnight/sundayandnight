@@ -189,9 +189,14 @@
     border: 1px solid $white;
     background-color: $white;
   }
+  
+  .carousel-item h3 {
+    letter-spacing: 7px;
+  }
 
   .carousel-indicators li.active {
     background-color: $yellow;
+    border-color: $yellow;
   }
   
   .carousel-control-prev, .carousel-control-next {
