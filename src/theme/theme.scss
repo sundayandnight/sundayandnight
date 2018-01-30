@@ -6,7 +6,7 @@
 body {
   background-color: $black;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: $white;
 }
   
@@ -34,7 +34,10 @@ button.btn {
 }
 
 button.btn-outline-primary {
-  color: $white
+  color: $white;
+  &:hover {
+    color: $black;
+  }
 }
 
 .carousel {
