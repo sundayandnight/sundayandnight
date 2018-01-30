@@ -8,3 +8,12 @@
   cursor: pointer;
 }
 
+.btn a {
+  color: $black;
+  cursor: default;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+

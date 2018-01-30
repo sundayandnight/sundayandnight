@@ -17,7 +17,7 @@
   <div class="row">
     <div text-center class="sn-home__carousel col" data-ride="carousel" >
       <div class="row justify-content-center text-center">
-        <div class="col-4">
+        <div class="col-6">
           <h4 translate>Home.carousel.title</h4>
         </div>
       </div>
@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="sn-home__carousel-subtext row mt-4 justify-content-center">
-    <div class="col-4 text-center">
+    <div class="col-6 text-center">
       <p translate>Home.carousel.subtext</p>
     </div>
   </div>
@@ -47,43 +47,47 @@
     </div>
     <div class="row text-center sn-home__secret-subtext">
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.whystorming<br /><i
-            class="fa fa-info-circle"
+        <h4 translate>Home.panel3.subtitles.whystorming<br />
+          <img
+            src="assets/info-icon.png" alt="info text"
             placement="bottom"
             triggers="mouseenter:mouseleave"
             ngbPopover='{{ "Home.panel3.subtitles.whyPop" | translate }}'
             popoverTitle='{{ "Home.panel3.subtitles.whystorming" | translate }}'
-          ></i>
+          />
         </h4>
       </div>
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.truthstorming<br /><i
-            class="fa fa-info-circle"
+        <h4 translate>Home.panel3.subtitles.truthstorming<br />
+          <img
+            src="assets/info-icon.png" alt="info text"
             placement="bottom"
             triggers="mouseenter:mouseleave"
             ngbPopover='{{ "Home.panel3.subtitles.truthPop" | translate }}'
             popoverTitle='{{ "Home.panel3.subtitles.truthstorming" | translate }}'
-          ></i>
+          />
         </h4>
       </div>
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.swarm<br /><i
-            class="fa fa-info-circle"
+        <h4 translate>Home.panel3.subtitles.swarm<br />
+          <img
+            src="assets/info-icon.png" alt="info text"
             placement="bottom"
             triggers="mouseenter:mouseleave"
             ngbPopover='{{ "Home.panel3.subtitles.swarmPop" | translate }}'
             popoverTitle='{{ "Home.panel3.subtitles.swarm" | translate }}'
-          ></i>
+          />
         </h4>
       </div>
       <div class="col-3">
-        <h4 translate>Home.panel3.subtitles.hyper<br /><i
-            class="fa fa-info-circle"
+        <h4 translate>Home.panel3.subtitles.hyper<br />
+          <img
+            src="assets/info-icon.png" alt="info text"
             placement="bottom"
             triggers="mouseenter:mouseleave"
             ngbPopover='{{ "Home.panel3.subtitles.hyperPop" | translate }}'
             popoverTitle='{{ "Home.panel3.subtitles.hyper" | translate }}'
-          ></i>
+          />
         </h4>
       </div>
     </div>
@@ -116,6 +120,7 @@
     </div>
   </div>
 
+  <a name="curious"></a>
   <div class="sn-home__curious text-center">
     <h3 class="sn-home__curious-title text-uppercase" translate>Home.curious.title</h3>
     <div class="sn-home__curious-form row justify-content-around">
@@ -130,10 +135,10 @@
                   placement="top"
                   triggers="mouseenter:mouseleave"
                   ngbPopover='{{ "Home.curious." + key + ".popoverText" | translate }}'
-                  popoverTitle='{{ "Home.curious." + key + ".popoverTitle" | translate }}'
+                  popoverTitle='{{ "Home.curious." + key + ".popoverTitle" | translate | uppercase }}'
                   translate
                 >
-                  {{ 'Home.curious.' + key + '.title' }} <i class="fa fa-info-circle"></i>
+                  {{ 'Home.curious.' + key + '.title' }} <img src="assets/info-icon.png" />
                 </label>
                 <input
                   type="email" value="" name="EMAIL"

@@ -25,7 +25,7 @@ h4 {
   color: $white;
 }
  
-button.btn {
+.btn {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
@@ -33,7 +33,7 @@ button.btn {
   height: 44px;
 }
 
-button.btn-outline-primary {
+.btn-outline-primary {
   color: $white;
   &:hover {
     color: $black;
