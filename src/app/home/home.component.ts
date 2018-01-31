@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   };
 
   constructor(config: NgbCarouselConfig) {
-    config.interval = 3000;
+    config.interval = 30000;
   }
 
   ngOnInit() {
