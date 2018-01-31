@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { finalize } from 'rxjs/operators';
-import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-home',
@@ -19,8 +18,27 @@ export class HomeComponent implements OnInit {
     partner: '5df8a92947'
   };
 
-  constructor(config: NgbCarouselConfig) {
-    config.interval = 3000;
+  quoteSlideConfig = {
+    fade: true,
+    cssEase: 'linear',
+    speed: 500,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 4500,
+  };
+
+  carouselSlideConfig = {
+    fade: true,
+    cssEase: 'linear',
+    speed: 500,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+  };
+
+  constructor() {
   }
 
   ngOnInit() {

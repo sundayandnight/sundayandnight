@@ -8,6 +8,8 @@ import { SharedModule } from '../shared/shared.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { QuoteService } from './quote.service';
+import { SlickModule } from 'ngx-slick';
+
 
 @NgModule({
   imports: [
@@ -16,7 +18,8 @@ import { QuoteService } from './quote.service';
     CoreModule,
     SharedModule,
     HomeRoutingModule,
-    NgbModule
+    NgbModule,
+    SlickModule
   ],
   declarations: [
     HomeComponent

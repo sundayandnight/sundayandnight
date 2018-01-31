@@ -23,11 +23,12 @@
           <h4 translate>Home.carousel.title</h4>
         </div>
       </div>
-      <ngb-carousel data-ride="carousel">
-        <ng-template ngbSlide *ngFor="let carouselString of carouselStrings">
-          <h3 class="single-text" translate >{{ 'Home.carousel.' + carouselString }}</h3>
-        </ng-template>
-      </ngb-carousel>
+      
+      <ngx-slick class="text-carousel" [config]="carouselSlideConfig">
+          <div ngxSlickItem *ngFor="let carouselString of carouselStrings">
+            <h3 class="single-text" translate >{{ 'Home.carousel.' + carouselString }}</h3>
+          </div>
+      </ngx-slick>
     </div>
   </div>
   <div class="sn-home__carousel-subtext row mt-4 justify-content-center">
@@ -104,15 +105,15 @@
     <h3 class="sn-home__quotes-title text-uppercase" translate>Home.quotes.title</h3>
     <div class="row justify-content-center">
       <div class="col-12 col-md-8">
-      <ngb-carousel data-ride="carousel">
-          <ng-template ngbSlide *ngFor="let count of [0,1,2,3]">
-            <img class="mb-4" src="assets/quote-marks-open.png">
-            <div>
-              <h3 class="sn-home__quotes-quote" translate >{{ 'Home.quotes.list.' + count }}</h3>
+        <ngx-slick #slickModal="slick-modal" [config]="quoteSlideConfig">
+            <div ngxSlickItem *ngFor="let count of [0,1,2,3]">
+              <img class="quote-img mb-4" src="assets/quote-marks-open.png">
+              <div>
+                <h3 class="sn-home__quotes-quote" translate >{{ 'Home.quotes.list.' + count }}</h3>
+              </div>
+              <img class="quote-img quote-img-bottom mt-4" src="assets/quote-marks-close.png">
             </div>
-          </ng-template>
-      </ngb-carousel>
-      <img class="mt-4" src="assets/quote-marks-close.png">
+        </ngx-slick>
       </div>
     </div>
   </div>

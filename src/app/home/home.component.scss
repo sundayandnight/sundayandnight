@@ -13,6 +13,7 @@
 .sn-home.container-fluid {
   max-width: 1440px;
 }
+
 .sn-home {
   &__jumbotron {
     background-image: url("/assets/home-top.png");
@@ -37,13 +38,11 @@
   &__carousel {
     text-align: center;
 
-    .carousel-inner {
-      height: 110px;
+    .single-text {
+      letter-spacing: 7px;
       font-family: 'Playfair Display', serif;
-    }
-
-    h3 {
-      padding-top: 20px;
+      margin-top: 17px;
+      margin-bottom: 17px;
     }
 
     h4 {
@@ -96,18 +95,13 @@
       letter-spacing: 5px;
     }
 
-    .carousel-indicators {
-      top: 260px;
-      margin-bottom: 240px;
-      @include media-breakpoint-only(md) {
-        top: 300px;
-      }
-      @include media-breakpoint-only(sm) {
-        top: 300px;
-      }
-      @include media-breakpoint-only(xs) {
-        top: 350px;
-      }
+    .quote-img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .quote-img-bottom {
+      margin-bottom: 10px;
     }
 
     &-quote {
@@ -233,8 +227,14 @@
       color: $black;
     }
   }
-  
-  .carousel-indicators li {
+
+
+  // SLICK settings
+  .slick-dots {
+    margin-top: 5px;
+  }
+
+  .slick-dots li {
     border-radius: 6px;
     margin: 1px 3px;
     height: 6px;
@@ -243,18 +243,12 @@
     background-color: $white;
   }
   
-  .carousel-item h3.single-text {
-    letter-spacing: 7px;
-  }
-
-  .carousel-indicators li.active {
+  .slick-dots li.slick-active {
     background-color: $yellow;
     border-color: $yellow;
   }
   
-  .carousel-control-prev, .carousel-control-next {
-    display: none;
-  }
+  // SLICK settings end
 
   .popover-body, .popover-header {
     font-family: 'Source Sans Pro', sans-serif;
