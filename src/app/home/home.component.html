@@ -119,12 +119,11 @@
   </div>
 </div>
   <div class="sn-home__video text-center">
-    <div class="embed-container">
-      <iframe
-        id="vimeoplayer"
-        src="//player.vimeo.com/video/243449916?api=1&amp;background=1"
-        frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen>
-      </iframe>
+    <div *ngIf="isMobile" class="embed-container">
+      <iframe src="//player.vimeo.com/video/254191510?loop=1" frameborder="0"></iframe>
+    </div>
+    <div *ngIf="!isMobile" class="embed-container">
+      <iframe src="//player.vimeo.com/video/254191510?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
 

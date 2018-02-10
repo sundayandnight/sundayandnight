@@ -10,6 +10,7 @@ import { finalize } from 'rxjs/operators';
 export class HomeComponent implements OnInit {
 
   isLoading: boolean;
+  isMobile: boolean = false;
   carouselStrings = ['growth', 'technology', 'organization', 'customer', 'product', 'brand'];
 
   mailChimpKeys = {
@@ -43,6 +44,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.isLoading = true;
+
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent)) {
+      this.isMobile = true;
+    }
   }
 
 }
