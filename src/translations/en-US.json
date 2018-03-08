@@ -1,7 +1,5 @@
 {
-  "APP_NAME": "ngX-Rocket",
   "About": "About",
-  "Hello world !": "Hello world !",
   "Logged in as": "Logged in as",
   "Login": "Login",
   "Logout": "Logout",
@@ -19,7 +17,7 @@
   "Home": {
     "pageTitle": "Home",
     "topText": "We believe organizations rarely die from moving too fast.",
-    "subtext": "In the new world order, it’s no longer the big fish that eats the small fish; it’s the fast fish that eats the slow fish. The harsh new reality: Slow to adapt, slow to act and slow to market, means death.",
+    "subtext": "In the new world order, it’s no longer the big fish that eats the small fish; it’s the fast fish that eats the slow fish. The harsh new business reality: Slow to adapt, slow to act and slow to market, means death.",
     "subtext2": "We are Sunday+Night.",
     "subtext3": "We partner with committed, action-oriented leaders, teams and organizations to deliver solutions to the most compelling business challenges – impossibly fast.",
     "carousel": {
